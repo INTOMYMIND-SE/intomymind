@@ -1,0 +1,319 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+
+ @media only screen and (max-width: 82.875em) {
+    html {
+        font-size:50%;
+    }
+  }
+ @media only screen and (max-width: 68.75em) {
+    html {
+        font-size:30%;
+    }
+  }
+
+
+
+
+.header{
+    height: 9rem;
+
+    padding:  1rem 3rem;
+
+    background-color: #262626;
+
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+
+
+
+.logo-header{
+    width: 7rem;
+    height: 7rem;
+    
+
+}
+
+
+.logo{
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo_text{
+font-size: 3rem;
+text-transform: uppercase;
+}
+
+.text-span{
+    color: #82b440;
+}
+
+
+.logo_utext{
+    font-size: 1.5rem;
+    color: #adb5bd;
+}
+
+
+
+.content_img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+main{
+    width: 100vw;
+    height:auto ;
+    background-image:
+    linear-gradient(to bottom, rgba(38, 38, 38, 0.7), rgba(38, 38, 38, 0.7)),
+    url(img/american-public-power-association-XGAZzyLzn18-unsplash\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10rem   ;
+}
+
+.heading-primary{
+    color: #fff;
+    font-size: 10rem;
+    margin-bottom: 5rem;
+}
+
+
+
+.content_text{
+    color: white;
+    opacity: 40%;
+    font-size: 3rem;
+    margin-bottom: 13rem;
+}
+
+.about-company{
+    color: white;
+    opacity: 40%;
+    font-size: 4.5rem;
+    margin-bottom: 5rem;
+
+}
+
+
+.testimonial{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonial-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+@media only screen and (max-width: 68.75em) {
+    .testimonial-content {
+        gap: 3rem;
+
+    }
+}
+
+.testimonial-text{
+color: white;
+font-size: 3rem;
+}
+
+#testimonial-numbers1{
+ font-weight: 700;
+  color: #82b440;
+  font-size: 7rem;
+}
+#testimonial-numbers2{
+ font-weight: 700;
+  color: #82b440;
+  font-size: 7rem;
+}
+
+.about{
+    padding: 15rem;
+    background-image: linear-gradient( to right bottom , rgba(73, 80, 87 , 1) ,rgba(73, 80, 87 , 1) );
+}
+
+.about-heading{
+margin-bottom: 15rem;
+}
+
+.contact-us , .about-heading{
+text-transform: uppercase;
+color: #82b440;
+font-weight: 700;
+font-size: 2rem;
+letter-spacing: 2px;
+}
+
+
+.about-heading:hover{
+    transform:scaleY(1.2) skewX(20deg) ;
+
+}
+
+
+
+
+.about-content{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+
+
+
+.about-img{
+    width: 15%;
+    display: block;
+    border-radius: 50%;
+    
+}
+
+@media only screen and (max-width: 68.75em) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+
+    }
+
+
+
+    .about-img{
+        width: 65%;
+      
+        
+    }
+
+    .about{
+        padding: 5rem;
+    }
+    
+
+
+
+
+
+
+    
+
+
+
+}
+
+.owner-name{
+    color: #82b440;
+    font-weight: 300;
+}
+
+
+.about-text{
+line-height: 1.5;
+width: 90%;
+font-size: 2.5rem;
+color: white;
+font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+input{
+    background-color: white;
+    padding: 2.1rem 2rem;
+    display: inline-block;
+    font-size: 2.5rem;
+    border: dotted #82b440 1px;
+    outline: none;
+    border-radius: 9px;
+    background-color: white;
+    
+}
+
+input::placeholder {
+    color: #82b440;
+}
+
+.btn{
+    display: inline-block;
+    padding: 2.1rem 3rem;
+    font-size: 2.5rem;
+    background-color: #82b440;  
+    border: dotted #82b440 1px;
+    outline: none;
+    border-radius: 9px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+
+.contact-section{
+    display: flex;
+    gap: 20rem;
+    margin-bottom: 15rem;
+    align-items: center;
+
+}      
+
+
+
+@media only screen and (max-width: 68.75em) {
+    .contact-section {
+        flex-direction: column;
+        gap: 5rem;
+
+    }
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+
+@media only screen and (max-width: 30.25em) {
+    form {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+
+    }
+}
